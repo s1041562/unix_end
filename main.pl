@@ -8,16 +8,17 @@ use LWP::UserAgent;
 sub main {
     print "輸入想去看板 :";
     my $input_forum = <STDIN>;
+    chomp $input_forum;
     print "$input_forum";
 
     # get params
     # @_  
     # Within a subroutine the array @_ contains the parameters passed to that subroutine. 
     # Inside a subroutine, @_ is the default array for the array operators push, pop, shift, and unshift.
-    #my $url = 'https://www.ptt.cc/bbs/Gossiping/index.html';
+    #my $url = "https://www.ptt.cc/bbs/Gossiping/index.html";
     my $url = "https://www.ptt.cc/bbs/$input_forum/index.html";
     die "no url param!\n" unless $url;
- 	print "$url";
+ 	
     # create LWP::UserAgent object
     my $ua = LWP::UserAgent->new;
     # set connect timeout 
@@ -26,7 +27,7 @@ sub main {
     $ua->agent("Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; SV1; .NET CLR 2.0.50727)");
     # send url use get mothed, and store response at var $resp
     my $resp = $ua->get($url);
- 
+ 	#print "$url";
     # check response
     if ($resp->is_success) {
         # get response content(html source code)
@@ -44,6 +45,7 @@ sub main {
 		#display status information and exit
         die $resp->status_line;
     }
+
 }
  
 # pass params to main function,
