@@ -33,11 +33,14 @@ sub main {
         # get response content(html source code)
         my $content = $resp->decoded_content;
         # use Regex get page title from $content
-        if ( $content =~ m{<title>(.*)</title>}si ) {
+        if ( $content =~ m{<title>(.*)</title>} ) {
             # <title>(.+?)</title> (.+?) match title string, use () to store this str at a special variable $1 (this is a perl variable ),
             # The bracketing construct ( ... ) creates capture groups (also referred to as capture buffers). To refer to the current contents of a group later on, within the same pattern, use $1 for the first,$2 for the second, and so on.
             my $head = $1;
             print "find page title : $head\n";
+     		open (FILE, ">result.txt")||die "$!";
+     		print FILE "$content";
+     		close(FILE);
         } else {
             print "no page title for url : $url\n";
         }
