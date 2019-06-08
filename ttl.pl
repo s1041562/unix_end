@@ -6,6 +6,12 @@ use lib "lib";
 use Web::Scraper;
 use LWP::UserAgent;
 use YAML;
+use HTML::TreeBuilder;
+use 5.010;
+use utf8;
+binmode(STDIN, ':encoding(utf8)');
+binmode(STDOUT, ':encoding(utf8)');
+binmode(STDERR, ':encoding(utf8)');
 
 #print "請輸入版塊";
 #my $input_forum = <STDIN>;
@@ -51,9 +57,23 @@ open my $in, "<:encoding(utf8)", "result1.txt" or die "result1.txt: $!";
 while (my $line = <$in>) {
     chomp $line;
     if ( $line =~ /https:\/\/www.ptt.cc\/bbs\/C_Chat\/M(.*)/ ) {
-        my $head = "https://www.ptt.cc/bbs/C_Chat/M"."$1";
+        #my $head = "https://www.ptt.cc/bbs/C_Chat/M"."$1";
+        my $head = "https://www.ptt.cc/bbs/C_Chat/M.1559976856.A.26E.html";
+        print "目前解析網址：","$head\n";
+        
         my $resp = $ua->get($head);
-        print $resp->decoded_content;
+        $resp = $resp->decoded_content;
+        
+        my $tree = HTML::TreeBuilder->new; 
+        $tree->parse($resp);
+        my $e = $tree->look_down(class => 'push',);
+        #say $e->as_trimmed_text();
+        foreach my $anchor ($tree->look_down(class => 'push',)) {
+            #my @push = $tree->find("push");
+            #return $td[1]->as_text if $td[0]->as_text eq $key;
+            say $anchor->as_trimmed_text();
+        }
+ 
         last;
         #print "find page url : $head\n";
     } else {
