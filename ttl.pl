@@ -7,6 +7,7 @@ use Web::Scraper;
 use LWP::UserAgent;
 use YAML;
 use HTML::TreeBuilder;
+use HTML::Parser;
 use 5.010;
 use utf8;
 binmode(STDIN, ':encoding(utf8)');
@@ -63,11 +64,26 @@ while (my $line = <$in>) {
         
         my $resp = $ua->get($head);
         $resp = $resp->decoded_content;
+        my @values = split('\n', $resp);  
+        
+        my $print_content = 0;
+        foreach my $val (@values) {  
+            
+            if($print_content eq 1){
+                if($val =~ /<span/){
+                    $print_content = 0;
+                }else{
+                    say "$val";
+                }
+            }
+            if($val =~ /main-content/){
+                $print_content = 1;  
+            }
+        }  
         
         my $tree = HTML::TreeBuilder->new; 
         $tree->parse($resp);
-        my $e = $tree->look_down(class => 'push',);
-        #say $e->as_trimmed_text();
+
         foreach my $anchor ($tree->look_down(class => 'push',)) {
             #my @push = $tree->find("push");
             #return $td[1]->as_text if $td[0]->as_text eq $key;
