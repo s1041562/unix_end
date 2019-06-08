@@ -3,9 +3,13 @@
 use strict;
 # use LWP::UserAgent model
 use LWP::UserAgent;
+use LWP::Simple;
+use HTML::Parse;
+use HTML::Element;
  
 # main function
 sub main {
+
     print "輸入想去看板 :";
     my $input_forum = <STDIN>;
     chomp $input_forum;
@@ -27,6 +31,8 @@ sub main {
     $ua->agent("Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; SV1; .NET CLR 2.0.50727)");
     # send url use get mothed, and store response at var $resp
     my $resp = $ua->get($url);
+
+
  	#print "$url";
     # check response
     if ($resp->is_success) {
@@ -48,6 +54,7 @@ sub main {
 		#display status information and exit
         die $resp->status_line;
     }
+
 
 }
  

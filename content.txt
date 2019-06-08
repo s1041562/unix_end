@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>看板 MLB 文章列表 - 批踢踢實業坊</title>
+
+<link rel="stylesheet" type="text/css" href="//images.ptt.cc/bbs/v2.25/bbs-common.css">
+<link rel="stylesheet" type="text/css" href="//images.ptt.cc/bbs/v2.25/bbs-base.css" media="screen">
+<link rel="stylesheet" type="text/css" href="//images.ptt.cc/bbs/v2.25/bbs-custom.css">
+<link rel="stylesheet" type="text/css" href="//images.ptt.cc/bbs/v2.25/pushstream.css" media="screen">
+<link rel="stylesheet" type="text/css" href="//images.ptt.cc/bbs/v2.25/bbs-print.css" media="print">
+
+
+
+
+	</head>
+    <body>
+		
+<div id="topbar-container">
+	<div id="topbar" class="bbs-content">
+		<a id="logo" href="/bbs/">批踢踢實業坊</a>
+		<span>&rsaquo;</span>
+		<a class="board" href="/bbs/MLB/index.html"><span class="board-label">看板 </span>MLB</a>
+		<a class="right small" href="/about.html">關於我們</a>
+		<a class="right small" href="/contact.html">聯絡資訊</a>
+	</div>
+</div>
+
+<div id="main-container">
+	<div id="action-bar-container">
+		<div class="action-bar">
+			<div class="btn-group btn-group-dir">
+				<a class="btn selected" href="/bbs/MLB/index.html">看板</a>
+				<a class="btn" href="/man/MLB/index.html">精華區</a>
+			</div>
+			<div class="btn-group btn-group-paging">
+				<a class="btn wide" href="/bbs/MLB/index1.html">最舊</a>
+				<a class="btn wide" href="/bbs/MLB/index1754.html">&lsaquo; 上頁</a>
+				<a class="btn wide disabled">下頁 &rsaquo;</a>
+				<a class="btn wide" href="/bbs/MLB/index.html">最新</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="r-list-container action-bar-margin bbs-screen">
+		<div class="search-bar">
+			<form type="get" action="search" id="search-bar">
+				<input class="query" type="text" name="q" value="" placeholder="搜尋文章&#x22ef;">
+			</form>
+		</div>
+
+		
+		
+            
+        
+        
+		<div class="r-ent">
+			<div class="nrec"><span class="hl f3">50</span></div>
+			<div class="title">
+			
+				<a href="/bbs/MLB/M.1559870815.A.E2C.html">[情報] Dallas Keuchel去勇士</a>
+			
+			</div>
+			<div class="meta">
+				<div class="author">sbmylife</div>
+				<div class="article-menu">
+					
+					<div class="trigger">&#x22ef;</div>
+					<div class="dropdown">
+						<div class="item"><a href="/bbs/MLB/search?q=thread%3A%5B%E6%83%85%E5%A0%B1%5D&#43;Dallas&#43;Keuchel%E5%8E%BB%E5%8B%87%E5%A3%AB">搜尋同標題文章</a></div>
+						
+						<div class="item"><a href="/bbs/MLB/search?q=author%3Asbmylife">搜尋看板內 sbmylife 的文章</a></div>
+						
+					</div>
+					
+				</div>
+				<div class="date"> 6/07</div>
+				<div class="mark"></div>
+			</div>
+		</div>
+
+		
+            
+        
+        
+		<div class="r-ent">
+			<div class="nrec"><span class="hl f3">33</span></div>
+			<div class="title">
+			
+				<a href="/bbs/MLB/M.1559876398.A.CAB.html">[討論] 開口和金寶是不是證明選秀權很有價值?</a>
+			
+			</div>
+			<div class="meta">
+				<div class="author">ck326</div>
+				<div class="article-menu">
+					
+					<div class="trigger">&#x22ef;</div>
+					<div class="dropdown">
+						<div class="item"><a href="/bbs/MLB/search?q=thread%3A%5B%E8%A8%8E%E8%AB%96%5D&#43;%E9%96%8B%E5%8F%A3%E5%92%8C%E9%87%91%E5%AF%B6%E6%98%AF%E4%B8%8D%E6%98%AF%E8%AD%89%E6%98%8E%E9%81%B8%E7%A7%80%E6%AC%8A%E5%BE%88%E6%9C%89%E5%83%B9%E5%80%BC%3F">搜尋同標題文章</a></div>
+						
+						<div class="item"><a href="/bbs/MLB/search?q=author%3Ack326">搜尋看板內 ck326 的文章</a></div>
+						
+					</div>
+					
+				</div>
+				<div class="date"> 6/07</div>
+				<div class="mark"></div>
+			</div>
+		</div>
+
+		
+            
+        
+        
+		<div class="r-ent">
+			<div class="nrec"><span class="hl f3">10</span></div>
+			<div class="title">
+			
+				<a href="/bbs/MLB/M.1559894704.A.FE2.html">[分享] 排名</a>
+			
+			</div>
+			<div class="meta">
+				<div class="author">Ivers</div>
+				<div class="article-menu">
+					
+					<div class="trigger">&#x22ef;</div>
+					<div class="dropdown">
+						<div class="item"><a href="/bbs/MLB/search?q=thread%3A%5B%E5%88%86%E4%BA%AB%5D&#43;%E6%8E%92%E5%90%8D">搜尋同標題文章</a></div>
+						
+						<div class="item"><a href="/bbs/MLB/search?q=author%3AIvers">搜尋看板內 Ivers 的文章</a></div>
+						
+					</div>
+					
+				</div>
+				<div class="date"> 6/07</div>
+				<div class="mark"></div>
+			</div>
+		</div>
+
+		
+            
+        
+        
+		<div class="r-ent">
+			<div class="nrec"><span class="hl f2">3</span></div>
+			<div class="title">
+			
+				<a href="/bbs/MLB/M.1559902228.A.64D.html">[情報] 今日 MLB 投打表現 (2019.06.06)</a>
+			
+			</div>
+			<div class="meta">
+				<div class="author">Rambo</div>
+				<div class="article-menu">
+					
+					<div class="trigger">&#x22ef;</div>
+					<div class="dropdown">
+						<div class="item"><a href="/bbs/MLB/search?q=thread%3A%5B%E6%83%85%E5%A0%B1%5D&#43;%E4%BB%8A%E6%97%A5&#43;MLB&#43;%E6%8A%95%E6%89%93%E8%A1%A8%E7%8F%BE&#43;%282019.06.06%29">搜尋同標題文章</a></div>
+						
+						<div class="item"><a href="/bbs/MLB/search?q=author%3ARambo">搜尋看板內 Rambo 的文章</a></div>
+						
+					</div>
+					
+				</div>
+				<div class="date"> 6/07</div>
+				<div class="mark"></div>
+			</div>
+		</div>
+
+		
+            
+        
+        
+		<div class="r-ent">
+			<div class="nrec"></div>
+			<div class="title">
+			
+				<a href="/bbs/MLB/M.1559902766.A.7D4.html">[影片] 今日 MLB 賽事精華 (2019.06.06)</a>
+			
+			</div>
+			<div class="meta">
+				<div class="author">Rambo</div>
+				<div class="article-menu">
+					
+					<div class="trigger">&#x22ef;</div>
+					<div class="dropdown">
+						<div class="item"><a href="/bbs/MLB/search?q=thread%3A%5B%E5%BD%B1%E7%89%87%5D&#43;%E4%BB%8A%E6%97%A5&#43;MLB&#43;%E8%B3%BD%E4%BA%8B%E7%B2%BE%E8%8F%AF&#43;%282019.06.06%29">搜尋同標題文章</a></div>
+						
+						<div class="item"><a href="/bbs/MLB/search?q=author%3ARambo">搜尋看板內 Rambo 的文章</a></div>
+						
+					</div>
+					
+				</div>
+				<div class="date"> 6/07</div>
+				<div class="mark"></div>
+			</div>
+		</div>
+
+		
+        
+        <div class="r-list-sep"></div>
+            
+                
+        
+        
+		<div class="r-ent">
+			<div class="nrec"><span class="hl f2">1</span></div>
+			<div class="title">
+			
+				<a href="/bbs/MLB/M.1522347200.A.625.html">[公告] 2018 MLB板 板規</a>
+			
+			</div>
+			<div class="meta">
+				<div class="author">s90523</div>
+				<div class="article-menu">
+					
+					<div class="trigger">&#x22ef;</div>
+					<div class="dropdown">
+						<div class="item"><a href="/bbs/MLB/search?q=thread%3A%5B%E5%85%AC%E5%91%8A%5D&#43;2018&#43;MLB%E6%9D%BF&#43;%E6%9D%BF%E8%A6%8F">搜尋同標題文章</a></div>
+						
+						<div class="item"><a href="/bbs/MLB/search?q=author%3As90523">搜尋看板內 s90523 的文章</a></div>
+						
+					</div>
+					
+				</div>
+				<div class="date"> 3/30</div>
+				<div class="mark"></div>
+			</div>
+		</div>
+
+            
+                
+        
+        
+		<div class="r-ent">
+			<div class="nrec"><span class="hl f1">爆</span></div>
+			<div class="title">
+			
+				<a href="/bbs/MLB/M.1550304198.A.1B6.html">[公告] MLB.tv for 2019 徵求區</a>
+			
+			</div>
+			<div class="meta">
+				<div class="author">rn940111</div>
+				<div class="article-menu">
+					
+					<div class="trigger">&#x22ef;</div>
+					<div class="dropdown">
+						<div class="item"><a href="/bbs/MLB/search?q=thread%3A%5B%E5%85%AC%E5%91%8A%5D&#43;MLB.tv&#43;for&#43;2019&#43;%E5%BE%B5%E6%B1%82%E5%8D%80">搜尋同標題文章</a></div>
+						
+						<div class="item"><a href="/bbs/MLB/search?q=author%3Arn940111">搜尋看板內 rn940111 的文章</a></div>
+						
+					</div>
+					
+				</div>
+				<div class="date"> 2/16</div>
+				<div class="mark"></div>
+			</div>
+		</div>
+
+            
+        
+	</div>
+
+    
+</div>
+
+		
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-32365737-1', {
+    cookieDomain: 'ptt.cc',
+    legacyCookieDomain: 'ptt.cc'
+  });
+  ga('send', 'pageview');
+</script>
+
+
+		
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="//images.ptt.cc/bbs/v2.25/bbs.js"></script>
+
+    </body>
+</html>
