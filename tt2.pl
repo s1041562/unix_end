@@ -56,20 +56,21 @@ while($count <=10){
 	}
 	close(FILE);
 	$count = $count+1;
-	#say "$count";
+	say "$count";
 }
 close(FILE_TITLE);
 
 
 my $ua = LWP::UserAgent->new;
 $ua->agent("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36");
-
+my $num = 0;
 open(FILE_,"<TITLE.txt")||die "$!";
-open(FILE_TEXT,">TEXT.txt")||die "$!";
-my $LINE;
-while (defined ($LINE = <$FILE_>)){
-    chomp $LINE;
 
+my $number = 0;
+my $LINE;
+while (defined ($LINE = <FILE_>)){
+    chomp $LINE;
+    open(FILE_TEXT,">copy_art/$num.txt")||die "$!";
     say "目前網址：","$LINE";
 
     my $resp = $ua->get($LINE);
@@ -106,7 +107,9 @@ while (defined ($LINE = <$FILE_>)){
         #say $temp;
         say FILE_TEXT $temp;
     }
-    last;
+    close(FILE_TEXT);
+    $num = $num + 1;
+    #last;
 }
 
 close(FILE_TITLE);
