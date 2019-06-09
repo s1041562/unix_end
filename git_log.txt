@@ -1,0 +1,137 @@
+commit d1e14e9f23ce33999f69c4e4570eaebd46c490da
+Author: s1041562 <910484jim@gmail.com>
+Date:   Sun Jun 9 21:50:06 2019 +0800
+
+    最終板　修ｂｕｇ
+
+commit 6be073f62840b6ad1178957e220284b4a0d8c8a2
+Author: a3649573 <51163158+a3649573@users.noreply.github.com>
+Date:   Sun Jun 9 21:26:26 2019 +0800
+
+    Add files via upload
+
+commit b7c2776122a8e437a51dd5e5e7c74db3d7225c3e
+Author: costorica <tribuneeducation@gmail.com>
+Date:   Sun Jun 9 21:15:04 2019 +0800
+
+    修正檔名問題
+
+commit 70965364f4e7bbacfb0b9ef0b6901de1c0fd0b6c
+Author: costorica <tribuneeducation@gmail.com>
+Date:   Sun Jun 9 19:21:39 2019 +0800
+
+    新增註解
+
+commit af2c8f69cf1cc97943988d5c9194c279a04f3829
+Author: costorica <tribuneeducation@gmail.com>
+Date:   Sun Jun 9 17:13:50 2019 +0800
+
+    輸出檔名改為文章標題
+
+commit be1edd38d817ec9bccac89c23e6e1d6acda763a5
+Author: s1041562 <910484jim@gmail.com>
+Date:   Sun Jun 9 17:09:42 2019 +0800
+
+    final
+
+commit 513354dccdd77d05e069a0a30ad69e278812f614
+Author: s1041562 <910484jim@gmail.com>
+Date:   Sun Jun 9 15:57:13 2019 +0800
+
+    修bug
+
+commit 36a6e6feed132728f51c3ee73d184a2719c53777
+Author: s1041562 <910484jim@gmail.com>
+Date:   Sun Jun 9 15:22:10 2019 +0800
+
+    救命
+
+commit a9e61b15867a212070cf0284d0c155e5ef62dcd8
+Author: s1041562 <910484jim@gmail.com>
+Date:   Sun Jun 9 09:37:01 2019 +0800
+
+    storage
+
+commit 9c6794abe83ee1d88f4b2e2d8d063a8c781edf5e
+Author: s1041562 <910484jim@gmail.com>
+Date:   Sat Jun 8 19:09:08 2019 +0800
+
+    Add files via upload
+
+commit 749b2e83affa17765603ebe21239fc34aee47744
+Author: costorica <tribuneeducation@gmail.com>
+Date:   Sat Jun 8 19:02:52 2019 +0800
+
+    可以爬推文跟內文了！
+
+commit 15c13ebc39c445abf762e87c9dc96d109b0b7ffd
+Author: costorica <tribuneeducation@gmail.com>
+Date:   Sat Jun 8 15:56:53 2019 +0800
+
+    用tree parse推文成功
+
+commit 5a12520982be0f12185d8f6f968f00e2da57b88c
+Author: costorica <tribuneeducation@gmail.com>
+Date:   Sat Jun 8 14:09:15 2019 +0800
+
+    嘗試繞過認證但沒有成功
+
+commit 20d7e30f73498edc108b86876655384e48138c48
+Author: costorica <tribuneeducation@gmail.com>
+Date:   Sat Jun 8 13:49:16 2019 +0800
+
+    catch the content of an article
+
+commit 8d9e7b355fdeec8400ede01ae3cadfcff1729beb
+Author: TsungChinWu <910484jim@gmail.com>
+Date:   Sat Jun 8 12:06:12 2019 +0800
+
+    123
+
+commit d9aefcbf690735fffb78c428418b6313c06bc9a5
+Author: TsungChinWu <910484jim@gmail.com>
+Date:   Sat Jun 8 11:59:00 2019 +0800
+
+    use web::scraper
+
+commit 9e27ab1e9130034f5241b48d02e3667e76e491bb
+Author: TsungChinWu <910484jim@gmail.com>
+Date:   Fri Jun 7 16:33:01 2019 +0800
+
+    can save result
+
+commit fc2f36026772337177fa46ec003751b85d91f9d7
+Author: TsungChinWu <910484jim@gmail.com>
+Date:   Fri Jun 7 10:50:01 2019 +0800
+
+    可以連線
+
+commit dbeefe37ada9f18dee17e54b3637e602cac5ae81
+Author: TsungChinWu <910484jim@gmail.com>
+Date:   Fri Jun 7 10:43:57 2019 +0800
+
+    八卦板測試
+
+commit b872dd7993195b2b889205738cc3b1ffe6a21268
+Author: TsungChinWu <910484jim@gmail.com>
+Date:   Fri Jun 7 08:00:42 2019 +0800
+
+    web crewler
+
+commit 684e94f384ca2e8f24b93cbe970b8b9e590b1084
+Author: TsungChinWu <910484jim@gmail.com>
+Date:   Fri Jun 7 00:29:59 2019 +0800
+
+    test
+
+commit aab1d14b5e32573530ecc4302f0e367624e5a35a
+Author: TsungChinWu <910484jim@gmail.com>
+Date:   Mon May 20 22:53:49 2019 +0800
+
+    modify git_test.py
+
+commit bc4e2764d964747fa63e0de9b8ea83b27487b00b
+Author: TsungChinWu <910484jim@gmail.com>
+Date:   Mon May 20 22:46:59 2019 +0800
+
+    Init git_test.py
