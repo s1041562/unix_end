@@ -12,6 +12,7 @@ use 5.010;
 
 # 確保輸入輸出都使用utf-8格式
 use utf8;
+use open ':std', ':encoding(UTF-8)';
 binmode(STDIN, ':encoding(utf8)');
 binmode(STDOUT, ':encoding(utf8)');
 binmode(STDERR, ':encoding(utf8)');
@@ -21,9 +22,10 @@ my $count = 0;
 
 my $next = "";
 open(FILE_TITLE,">TITLE.txt")||die "$!";
-
-while($count <=10){
-    
+print "輸入欲爬取版塊頁數: ";
+$count=<STDIN>;
+my $n = 1;
+while($n <= $count){
 	open(FILE,">Result.txt")||die "$!";
 	
 	# 初始化Webscraper
@@ -62,8 +64,8 @@ while($count <=10){
 		}	
 	}
 	close(FILE);
-	$count = $count+1;
-	say "$count";
+	say "爬取ptt第",$n,"頁的所有文章中";
+	$n = $n+1;
 }
 close(FILE_TITLE);
 
@@ -76,14 +78,14 @@ my $num = 0;
 open(FILE_,"<TITLE.txt")||die "$!";
 system("mkdir copy_art");
 
-my $number = 0;
+my $no_title_text = 1;
 my $LINE;
 # 從title.txt讀取網址
 while (defined ($LINE = <FILE_>)){
     my $filename_by_title;
     chomp $LINE;
     # 告訴使用者目前分析的文章網址
-    say "目前網址：","$LINE";
+    # say "目前網址：","$LINE";
     
     # 使用UserAgent傳送Get請求並接收回傳的網頁原始碼
     my $resp = $ua->get($LINE);
@@ -98,9 +100,15 @@ while (defined ($LINE = <FILE_>)){
     # 輸出文件的名稱用文章標題命名
     if($resp =~ /<meta property="og:title" content="(.*)">/){
         $filename_by_title = "$1";
-        say "$filename_by_title";
+    }else{
+        $filename_by_title = "[公告]";
     }
-    open(FILE_TEXT,">copy_art/$filename_by_title.txt")||die "$!";
+    say "$filename_by_title";
+    #$filename_by_title = "[資訊] 2019年4月新番台灣觀賞管道節目表(4/2)";
+    #open(FILE_TEXT,">copy_art/$filename_by_title.txt")||die "$!";
+    open(FILE_TEXT,">copy_art/$filename_by_title.txt")||
+    open(FILE_TEXT,">>copy_art/dump.txt");
+    say FILE_TEXT "目前網址：","$LINE";
     
     # 用tree尋找並存取文章的標題、作者名、發送時間
     foreach my $title ($tree->look_down(class => 'article-metaline',)) {
@@ -116,6 +124,9 @@ while (defined ($LINE = <FILE_>)){
         if($print_content eq 1){
             if($val =~ /<span/){
                 $print_content = 0;
+            }
+            #else{say FILE_TEXT $val;}
+            elsif($val =~/<div class="richcontent"/|| $val=~/<a href/){
             }else{
                 say FILE_TEXT $val;
             }
