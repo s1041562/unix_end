@@ -14,22 +14,14 @@ binmode(STDIN, ':encoding(utf8)');
 binmode(STDOUT, ':encoding(utf8)');
 binmode(STDERR, ':encoding(utf8)');
 
-
-say "輸入想爬看板";
-my $input = <STDIN>;
-say "輸入想爬頁數";
-my $target_page = <STDIN>;
-chomp $input;
-
 #open(FILE,"<result_.txt")||die "$!";
-my $url = "https://www.ptt.cc/bbs/$input/index.html";
+my $url = "https://www.ptt.cc/bbs/C_Chat/index.html";
 my $count = 0;
 
 my $next = "";
 open(FILE_TITLE,">TITLE.txt")||die "$!";
 
-while($count != $target_page){
-	say "$count";
+while($count <=10){
 	open(FILE,">Result.txt")||die "$!";
 	my $scraper = scraper {
     process 'a', "urls[]" => '@href';
@@ -64,7 +56,7 @@ while($count != $target_page){
 	}
 	close(FILE);
 	$count = $count+1;
-	
+	say "$count";
 }
 close(FILE_TITLE);
 
