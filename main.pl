@@ -55,7 +55,7 @@ while($n <= $count){
 			my @URL_ = split('::',$line);
 			my @URL_add = split(' ', $URL_[1]);
 			# 擷取含有文章內容的該網址
-			if($URL_add[1] =~ /https:\/\/www.ptt.cc\/bbs\/C_Chat\/index([0-9][0-9].*)/){
+			if($URL_add[1] =~ /https:\/\/www.ptt.cc\/bbs\/.*\/index([1-9][0-9].*)/){
 				$url = $URL_add[1];
 			}
 			elsif($URL_add[1] =~ /M.*html/){
